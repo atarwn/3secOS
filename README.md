@@ -1,7 +1,3 @@
-# 3secOS
-
-[![Build 3secOS](https://github.com/atarwn/3secOS/actions/workflows/makefile.yml/badge.svg)](https://github.com/atarwn/3secOS/actions/workflows/makefile.yml)
-
 ```ascii
   _____                ___  ____  
  |___ / ___  ___  ___ / _ \/ ___| 
@@ -10,7 +6,10 @@
  |____/|___/\___|\___|\___/|____/ 
 ```
 
-3secOS is a minimalistic operating system that fits in just 3 sectors (1536 bytes), with 1 sector for booting and 2 sectors for the system itself. It's a fork of the original bootOS by Oscar Toledo G., with improvements to the user interface and system interaction.
+
+[![Build 3secOS](https://github.com/atarwn/3secOS/actions/workflows/makefile.yml/badge.svg)](https://github.com/atarwn/3secOS/actions/workflows/makefile.yml)
+
+**3secOS** is a minimalistic operating system that fits in just 3 sectors (1536 bytes), with 1 sector for booting and 2 sectors for the system itself. It's a fork of the original bootOS by Oscar Toledo G., with improvements to the user interface and system interaction.
 
 ## Features
 
