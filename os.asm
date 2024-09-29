@@ -379,7 +379,7 @@ error_handling:
         ret
 
 intro:
-        db "3secOS",0
+        db "3secOS v0.1",0
 
 error_message:
         db "ERR",0
