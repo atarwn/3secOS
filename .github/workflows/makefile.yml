@@ -1,0 +1,26 @@
+name: Build 3secOS
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install NASM
+      run: sudo apt-get install nasm
+
+    - name: Build OS
+      run: make
+
+    - name: Upload bootable image
+      uses: actions/upload-artifact@v2
+      with:
+        name: bootable-image
+        path: bootable.img
