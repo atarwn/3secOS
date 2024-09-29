@@ -402,7 +402,7 @@ commands:
         dw ls_command
         db 2,"ft"
         dw ft_command
-        db 1,"h"
+        db 2,"hx"
         dw hexedit_command
         db 2,"rm"
         dw rm_command
