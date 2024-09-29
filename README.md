@@ -129,7 +129,7 @@ make clear
 Compared to the original bootOS, 3secOS includes:
 - Enhanced user interface
 - Improved system interaction
-- Compact 3-sector design (1536 bytes total)
+- 3-sector design (1536 bytes total)
 
 ## Known Issues
 
