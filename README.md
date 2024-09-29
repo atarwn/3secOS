@@ -1,5 +1,7 @@
 # 3secOS
 
+[![Build 3secOS](https://github.com/atarwn/3secOS/actions/workflows/makefile.yml/badge.svg)](https://github.com/atarwn/3secOS/actions/workflows/makefile.yml)
+
 ```ascii
   _____                ___  ____  
  |___ / ___  ___  ___ / _ \/ ___| 
