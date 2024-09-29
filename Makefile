@@ -13,7 +13,6 @@ clear:
 	rm -f bootable.img os.bin boot.bin zeros.img
 
 run:
-	qemu-system-i386 -fda os.img
+	qemu-system-i386 -fda bootable.img
 
 .PHONY: all clean clear run
-
