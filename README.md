@@ -55,7 +55,7 @@ This will generate the `bootable.img` file.
 2. 3secOS is compatible with various floppy disk sizes (360K, 720K, 1.2MB, and 1.44MB).
 3. For emulation, use a .img file of appropriate size (360K, 720K, or 1440K).
 
-### Creating a Disk Image (for Mac OS X and Linux)
+### Creating a custom-sized Disk Image (for Mac OS and Linux)
 
 To create a 360K image:
 
